@@ -1,4 +1,5 @@
 import { createInitialState, makeMove, resetGame, type GameState } from './game/logic';
+import './styles.css';
 
 // Render helpers
 function el<K extends keyof HTMLElementTagNameMap>(tag: K, className?: string, text?: string) {
